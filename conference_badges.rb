@@ -2,7 +2,7 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(array)
+def batch_badge_creator(attendees)
   badge_array = []
   array.each do |name|
     badge_array.push("Hello, my name is #{name}.")
